@@ -1,4 +1,4 @@
-* {
+*{
     box-sizing: border-box;
 }
 
@@ -7,8 +7,9 @@ body {
 
 }
 
-a{
+a {
     text-decoration: none;
+
 }
 
 section img{
@@ -17,7 +18,8 @@ section img{
 }
 
 header {
-    border-bottom: 1px solid #ccc;
+    background-color: rgba(75, 73, 70, 0.589);
+    border-bottom: 1px solid rgba(173, 235, 214, 0.527);
     padding-top: 1em;
     padding-bottom: 1em;
     position: fixed;
@@ -25,12 +27,12 @@ header {
     height: 3em;
 }
 
-header ul{
+header ul {
     text-align: right;
 }
 
 header li a {
-    color: #99A0B0;
+    color: #99a0b0;
     font-weight: lighter;
     text-transform: uppercase;
 }
@@ -42,7 +44,7 @@ header li {
 
 #contato li {
     display: inline-block;
-    
+   
 }
 
 #contato li a{
@@ -51,32 +53,30 @@ header li {
     width: 48px;
     height: 48px;
     text-indent: -9999px;
-
-    
 }
 
-#contato .email{
-    background-image: url("../Imagens/email.png");
+#contato .email {
+    background-image: url("../Imagens/mail.png");
 }
-
-#contato .face{
-    background-image: url("../Imagens/l.png");
-}
-
-#contato .twitter{
-    background-image: url("../Imagens/twitter.png");
 
 }
 
-#contato .github{
-    background-image: url("../Imagens/github.png");
-}
-
-#contato .linkedin{
-    background-image: url("../Imagens/linkedin.png");
+#contato .face {
+    background-image: url("../Imagens/face.png");
 
 }
 
+#contato .twitter {
+    background-image: url("../Imagens/twi.png");
+}
+
+#contato .insta {
+    background-image: url("../Imagens/inst.png");
+}
+
+#contato .linkedin {
+    background-image: url("../Imagens/link.png");
+}
 .container {
     padding-left: 10%;
     padding-right: 10%;
@@ -89,9 +89,9 @@ section {
 }
 
 .identificacao {
-    background-color: #579FF0;
+    background-image: url("../Imagens/game.png");
     color: #FCFCFD;
-    padding: 10em 7em 2em;
+    padding: 10em 2em 7em;
 }
 
 .identificacao h1 {
@@ -115,35 +115,40 @@ header li a {
 }
 
 .escuras {
-    background-color: #2B313E;
+    background-color: #fc0e0eea;
     color: #FCFCFD;
 }
 
 .claras {
-    background-color: #FCFCFD;
+    background-image: url("../Imagens/lgbt.jpg");
     color: #2B313E;
 }
-
 .projetos-header{
     float: left;
     width: 30%;
-
-
 }
 
 .projetos-header h3{
     margin-top: 1em;
-
+}
+.pro h3{
+    color: #FCFCFD;
+    font-size: 3em;
+}
+.pro p{
+    color: #FCFCFD;
+    font-size: 1.2em;
 }
 
-.styleprojetos{
+.styleprojetos{ 
+
     margin-left: 40%;
 }
-
 .styleprojetos li {
-    background-color: #6F768B;
+    background-color: #241c586e;
     padding: 1em;
     margin-bottom: 2em;
+    border-radius: 25px
 }
 
 .styleprojetos li a {
@@ -171,13 +176,12 @@ header li a {
     font-size: 1.5em;
     margin: 1em;
     width: 50%;
+
 }
 
 #sobre {
     position: relative;
 }
-
-
 
 #sobre img {
     width: 200px;
@@ -190,4 +194,17 @@ footer {
     padding-top: 1em;
     padding-bottom: 1em;
 
+}
+.backgd{
+    background-image: url("../imagens/ovini.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
+.rd{
+    border-radius: 50%;
+}
+.sombra{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;  
 }
