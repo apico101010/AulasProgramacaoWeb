@@ -59,7 +59,6 @@ header li {
     background-image: url("../Imagens/mail.png");
 }
 
-}
 
 #contato .face {
     background-image: url("../Imagens/face.png");
@@ -92,6 +91,8 @@ section {
     background-image: url("../Imagens/game.png");
     color: #FCFCFD;
     padding: 10em 2em 7em;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .identificacao h1 {
@@ -115,13 +116,16 @@ header li a {
 }
 
 .escuras {
-    background-color: #fc0e0eea;
+    background-color: #030303ea;
     color: #FCFCFD;
 }
 
 .claras {
     background-image: url("../Imagens/lgbt.jpg");
     color: #2B313E;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
 }
 .projetos-header{
     float: left;
@@ -184,7 +188,7 @@ header li a {
 }
 
 #sobre img {
-    width: 200px;
+    width: 180px;
     position: absolute;
     top: 2em;
     right: 10%;
